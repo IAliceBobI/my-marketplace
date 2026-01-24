@@ -1,4 +1,4 @@
-# Superpowers Marketplace
+# My Marketplace
 
 Curated Claude Code plugins for skills, workflows, and productivity tools.
 
@@ -7,20 +7,20 @@ Curated Claude Code plugins for skills, workflows, and productivity tools.
 Add this marketplace to Claude Code:
 
 ```bash
-/plugin marketplace add obra/superpowers-marketplace
+/plugin marketplace add IAliceBobI/my-marketplace
 ```
 
 ## Available Plugins
 
-### Superpowers (Core)
+### Myskills
 
-**Description:** Core skills library with TDD, debugging, collaboration patterns, and proven techniques
+**Description:** My fork of superpowers - An agentic skills framework & software development methodology
 
-**Categories:** Testing, Debugging, Collaboration, Meta
+**Categories:** Testing, Debugging, Collaboration, Meta, Development
 
 **Install:**
 ```bash
-/plugin install superpowers@superpowers-marketplace
+/plugin install myskills@my-marketplace
 ```
 
 **What you get:**
@@ -28,57 +28,17 @@ Add this marketplace to Claude Code:
 - `/brainstorm`, `/write-plan`, `/execute-plan` commands
 - Skills-search tool for discovery
 - SessionStart context injection
+- TDD, debugging, and collaboration patterns
+- Complete development methodology
 
-**Repository:** https://github.com/obra/superpowers
-
----
-
-### Elements of Style
-
-**Description:** Writing guidance based on William Strunk Jr.'s The Elements of Style (1918)
-
-**Categories:** Writing, Documentation, Reference
-
-**Install:**
-```bash
-/plugin install elements-of-style@superpowers-marketplace
-```
-
-**What you get:**
-- `writing-clearly-and-concisely` skill
-- Complete 1918 reference text (~12k tokens)
-- All 18 rules for clear, concise writing
-- Grammar, punctuation, and composition guidance
-
-**Repository:** https://github.com/obra/the-elements-of-style
-
----
-
-### Superpowers: Developing for Claude Code
-
-**Description:** Skills and resources for developing Claude Code plugins, skills, MCP servers, and extensions
-
-**Categories:** Development, Documentation, Claude Code, Plugin Development
-
-**Install:**
-```bash
-/plugin install superpowers-developing-for-claude-code@superpowers-marketplace
-```
-
-**What you get:**
-- `working-with-claude-code` skill with 42+ official documentation files
-- `developing-claude-code-plugins` skill for streamlined development workflows
-- Self-update mechanism for documentation
-- Complete reference for plugin development, skills, MCP servers, and extensions
-
-**Repository:** https://github.com/obra/superpowers-developing-for-claude-code
+**Repository:** https://github.com/IAliceBobI/myskills
 
 ---
 
 ## Marketplace Structure
 
 ```
-superpowers-marketplace/
+my-marketplace/
 ├── .claude-plugin/
 │   └── marketplace.json       # Plugin catalog
 └── README.md                  # This file
@@ -86,8 +46,8 @@ superpowers-marketplace/
 
 ## Support
 
-- **Issues**: https://github.com/obra/superpowers-marketplace/issues
-- **Core Plugin**: https://github.com/obra/superpowers
+- **Issues**: https://github.com/IAliceBobI/my-marketplace/issues
+- **Plugin Repository**: https://github.com/IAliceBobI/myskills
 
 ## License
 
