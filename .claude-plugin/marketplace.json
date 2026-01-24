@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "Skills, workflows, and productivity tools",
-    "version": "1.0.11"
+    "version": "1.0.12"
   },
   "plugins": [
     {
@@ -15,9 +15,7 @@
         "source": "url",
         "url": "https://github.com/IAliceBobI/myskills.git"
       },
-      "description": "My fork of superpowers - An agentic skills framework & software development methodology",
-      "version": "4.1.1",
-      "strict": true
+      "description": "My fork of superpowers - An agentic skills framework & software development methodology"
     }
   ]
 }
