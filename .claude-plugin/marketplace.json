@@ -6,16 +6,24 @@
   },
   "metadata": {
     "description": "Skills, workflows, and productivity tools",
-    "version": "1.0.12"
+    "version": "1.0.13"
   },
   "plugins": [
     {
-      "name": "myskills",
+      "name": "my-skills",
       "source": {
         "source": "url",
-        "url": "https://github.com/IAliceBobI/myskills.git"
+        "url": "https://github.com/IAliceBobI/my-skills.git"
       },
       "description": "My fork of superpowers - An agentic skills framework & software development methodology"
+    },
+     {
+      "name": "rust-skills",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/IAliceBobI/rust-skills.git"
+      },
+      "description": "skills for rust dev"
     }
   ]
 }
